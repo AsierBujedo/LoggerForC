@@ -3,7 +3,7 @@ How to use:
 
 Enum INFO, WARN, ERRORL, END} (LEVEL):
 Used to print into the specified file different kind of tags.
-Example: [INFO]   DATABASE INITALISED
+Example: [INFO]   DATABASE INITALIZED
 
 void openLogger(char name[]);
 Must be called before using the other logger methods.
