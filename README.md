@@ -10,7 +10,7 @@ Must be called before using the other logger methods.
 
 int closeLogger();
 Used to close the final file adding a final sentence into it.
-Output: [END] CODE EOI - END OF FILE
+Output: [END] CODE EOF - END OF FILE
 
 void logFile(LEVEL l, char desc[]);
 Must be always placed between openLogger(char name[]) and closeLogger().
